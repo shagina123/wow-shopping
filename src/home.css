@@ -1,0 +1,390 @@
+
+.nav
+{
+    height: 72px;
+    background-color: #33a1a8;
+    width: 100%;
+    display: flex;
+}
+
+
+.navTab
+{
+    height: 55px;
+    background-color: #33a1a8;
+    width: 1180px;
+    display: flex;
+}
+
+
+.navMobile
+{
+    height: 118px;
+    background-color: #33a1a8;
+    width: 100%;
+    display: block;
+}
+
+.logo
+{
+    width: 18%;
+    color: white;
+    text-align: center;
+}
+
+.logoMob
+{
+    color: white;
+    margin-top: 6px;
+}
+.search
+{
+    width: 55%; 
+    position: relative;
+}
+
+.searchMob
+{
+    width: 100%; 
+    
+}
+.searchdivMob
+{
+    height: 100%;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    position: relative; 
+}
+
+.searchdiv
+{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.customizeSearchMob
+{
+  -moz-border-radius: 1.875rem;
+  -webkit-border-radius: 1.875rem;
+  width: 100%;
+  height: 43px;  
+  background: white;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  font-family: roboto;
+  text-indent: 20px;
+  padding-Right: 14%;
+  
+
+}
+
+.customizeSearchMob::placeholder
+{
+    color: black;
+}
+
+.customizeSearch::placeholder
+{
+    color: #707070;
+
+}
+
+.customizeSearch
+{
+  -moz-border-radius: 1.875rem;
+  -webkit-border-radius: 1.875rem;
+  width: 100%;
+  height: 65%;  
+  background: white;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  font-family: roboto;
+  text-indent: 20px;
+  padding-Right: 10%;
+  margin-top: 2px;
+}
+
+.icon
+{
+  position:absolute;
+  right: 12px;
+  top: 22px;
+  color: gray;
+}
+
+.iconMob
+{
+  position:absolute;
+  right: 14px;
+  top: 8px;
+  color: black;
+}
+.headerLinks
+{
+    width: 27%;
+    display: flex;
+    
+}
+
+.headerLink
+{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.headerLinkMob
+{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 4px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+.select
+{
+    border: 1px solid #e0e0e0;
+    padding:10px;
+    width: 100%;
+    border-radius: 4px;
+    padding-right: 0px;
+}
+.inputrange
+{
+    border: 1px solid #e0e0e0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+    padding-right: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.conditioselect
+{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    
+}
+
+
+.countries option
+{
+    background-color: white;
+    color: black;
+    font-family: roboto;
+    font-weight: 500;
+}
+
+.itemHeaderTab
+{
+    background-color: white;
+    height: 45px;
+    width: 1180px;
+}
+
+.itemHeader
+{
+    background-color: white;
+    height: 58px;
+}
+
+.itemLinks
+{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contentContainer
+{
+    display: flex;
+    padding: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.filterContent
+{
+    width: 20%;
+    
+}
+.searchContainer
+{
+    width: 80%;
+
+    padding-left: 10px;
+    
+}
+
+.searchContainerMob
+{
+    width: 100%;
+}
+
+.searchContent
+{
+    border-radius: 4px;
+}
+.Featured
+{
+   background-color: white;
+    
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   display: flex;
+}
+
+.FeaturedMob
+{
+   background-color: white;
+   margin-top: 10px; 
+   display: flex;
+   height: 112px;
+}
+
+.Resultsort
+{
+    
+    padding: 10px;
+    background-color: white;
+    display: block;
+    margin-top: 5px;
+}
+
+.results
+{
+    
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    flex: 1;
+}
+
+.resultsMob
+{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex-direction: row;
+}
+.pagination
+{
+    
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.filterCont
+{
+    background-color: white;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.filterContMob
+{
+    background-color: white;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+.bottomfooter
+{
+    margin-top: 40px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding-top:20px
+}
+
+.bottomfooterMob
+{
+    margin-top: 10px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding-top:20px
+}
+.footerchild1
+{
+    width: 70%;
+    display: flex;
+}
+.footerchild1Mob
+{
+    width: 100%;
+    display: flex;
+}
+
+.footerchild2
+{
+    width: 30%;
+}
+
+.footerLinks
+{
+  list-style-type: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.footerLinksMob
+{
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.FollowLinks
+{
+  
+  padding-top: 10px;
+    font-weight: 600;
+  font-size: 16px;
+}
+
+.footerLinks1
+{
+  list-style-type: none;
+  padding: 15px;
+  padding-Top: 1px;
+  font-size: 12px;
+  color: gray;
+  font-weight: 600;
+
+}
+
+.footerLinks1Mob
+{
+  list-style-type: none;
+  padding-Top: 10px;
+  font-size: 10px;
+  color: gray;
+  font-weight: 500;
+
+}
+
+
